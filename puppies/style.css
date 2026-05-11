@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+body{
+	font-family: "Slabo", serif;
+	background-color:darkblue;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+}
+a:link{
+	color: #729324;
+}
+a:visited{
+	color: #6b503b;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: teal;
+}
+nav{
+  text-align: center;
+  background-color: mediumpurple;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 8px 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #763C28;
+}
+nav a:active{
+  color: green;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+}
+footer{
+	border-top: purple 3px solid;
+	text-align:center;
+	color: white;
+}
+.logo{
+	max-width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+		color: white;
+ }
+ h2{
+ 	font-size: 3em;
+ 	color: white;
+ }
+ h3{
+ 	font-size: 3em;
+ 	color: white;
+ }
+ blockquote{
+		background-color: #72b7b6;
+		border-left: 10px white;
+		padding: 30px;
+	}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+		color: white;
+}
+h2{
+ 	font-size: 1.8em;
+ 	color: white;
+ }
+ h3{
+ 	font-size: 1.8em;
+ 	color: white;
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+		color: white;
+	}
+	h2{
+ 	font-size: 1.5em;
+ 	color: white;
+ }
+ h3{
+ 	font-size: 1.5em;
+ 	color: white;
+	.fa{
+		font-size: 1.5em;
+		color: darkred;
+	}
+	.home-hero{
+		background-image: url(images/header.jpg);
+		height: 475px;
+		background-size: cover;
+		background-position: center;
+		color: #042837;
+		padding: 10px 10px 10px 30px;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}
+

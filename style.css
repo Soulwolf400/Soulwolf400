@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+	font-family: "Iosevka Charon", monospace;
+	background-color:darkorange;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+}
+a:link{
+	color: #729324;
+}
+a:visited{
+	color: #6b503b;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: teal;
+}
+nav{
+  text-align: center;
+  background-color: darkorange;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 8px 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #763C28;
+}
+nav a:active{
+  color: green;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+footer{
+	border-top: black 3px solid;
+	text-align:center;
+}
+.logo{
+	max-width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+ h2{
+font-size: 1.5em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	.home-hero{
+		background-image: url(images/the-lion.jpg);
+		background-size: cover;
+	}
+	.home-hero h1{
+		font-family: "Iosevka Charon", monospace;
+		color: gold;
+	}
+	.home-photo{
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+}
+.game-img{
+		background-image: url(images/grasslands.jpg);
+		background-size: cover;
+	}
+.canvas{margin: 0 auto
+	display: block;
+}
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+	.column4{
+		float: left;
+		width: 50%;
+	}
+}
